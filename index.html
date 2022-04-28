@@ -4,26 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HAMZATRONICS TECTHNOLOGIES</title>
+  <title>HAMZATRONICS TECTHNOLOGIES | Engineer Hamziey</title>
   <script src="https://kit.fontawesome.com/f815ff6cb3.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" media="screen and (min-width: 200px ) and (max-width: 768px)" href="./css/Mobile.css">
+  <!-- <link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 1024px)" href="./CSS/Tablet.css"> -->
 </head>
 
 <body>
-  <header>
+  <div class="mainContainer">
     <nav id="navBar">
       <h1 class="darkText"><i class="fa-solid fa-screwdriver-wrench" id="headIcon"></i>
         <span id="hHead">HAMZATRONICS TECHNOLOGIES</span>
       </h1>
       <ul id="navLink">
         <li class="navLinks">
-          <b><a href="#" class="navLinks-a">Home</a></b>
+          <a href="#" class="navLinks-a">Home</a>
         </li>
         <li class="navLinks">
-          <b><a href="#" class="navLinks-a">About</a></b>
+          <a href="#" class="navLinks-a">About</a>
         </li>
         <li class="navLinks">
-          <b><a href="#" class="navLinks-a">Contact</a></b>
+          <a href="#" class="navLinks-a">Contact</a>
         </li>
       </ul>
     </nav>
@@ -33,10 +35,10 @@
 
         <div id="overlayHead" class="coralLightBack">
           <!-- <h1 class="coralText">The Two Main Programs Available For Our IT And Siwes Students Are</h1> -->
-          <h1 class="coralText">Our IT And SIWES programs(Self-Paced)</h1>
-          <h3>
-            Below is the Two Main Programs We Offer:
-          </h3>
+          <h1 id="overlayH1" class="coralText">Our IT And SIWES programs are Self-Paced</h1>
+          <p>
+            Below are the Two Main Programs We Offer:
+          </p>
         </div>
         <div id="overlayBody">
           <div id="overlayLeft" class="coralLightBack">
@@ -45,7 +47,9 @@
               <h4>We Shall Cover:</h4>
               <ul class="shallCover">
                 <li>
-                  <h5>We shall be using HTML, CSS & Vanilla JavaScript.</h5>
+                  <h5>HTML <i class="fa-brands fa-html5 coralText" id="html-logo"></i>, CSS <i
+                      class="fa-brands fa-css3-alt coralText" id="css-logo"></i> & Vanilla
+                    JavaScript <i class="fa-brands fa-js-square coralText" id="html-logo"></i>.</h5>
                 </li>
                 <li>
                   <h5>Introduction Web Programming.</h5>
@@ -62,7 +66,7 @@
 
               </ul>
             </div>
-            <h4><a href="#" id="projList1" class="coralLightBack btn">View Project List</a></h4>
+            <a href="#" id="projList1" class="coralLightBack btn">View Project List</a>
           </div>
 
           <div id="overlayRight" class="coralLightBack">
@@ -71,7 +75,7 @@
               <h4>We Shall Cover:</h4>
               <ul class="shallCover">
                 <li>
-                  <h5>Introduction to electronics(Resistor colour code...etc).</h5>
+                  <h5>Introduction to electronics(Multivibrators...etc).</h5>
                 </li>
                 <li>
                   <h5>Introduction to Arduino(Software & Hardware).</h5>
@@ -80,14 +84,14 @@
                   <h5>Electronics Projects (Without Coding).</h5>
                 </li>
                 <li>
-                  <h5>Arduino Projects (Without Coding).</h5>
+                  <h5>Arduino Projects (WITH Coding).</h5>
                 </li>
                 <li>
                   <h5>Practice Excercise to test and improve your skills.</h5>
                 </li>
               </ul>
             </div>
-            <h4><a href="#" id="projList2" class="coralLightBack btn">View Project List</a></h4>
+            <a href="#" id="projList2" class="coralLightBack btn">View Project List</a>
           </div>
 
         </div>
@@ -96,15 +100,24 @@
       </div>
 
     </div>
+    <div id="certify">
+      <p>
+        <span class="specialText">Our CAC Registration Certificate</span>
+      </p>
+      <img src="./images/my CAC certificate image.jpg" alt="OUR CAC REGISTRATION" id="certificate">
+
+    </div>
+
+
     <footer>
       <div id="footer-content">
         <p>
-        <h5>Copyright &copy; 2022, HAMZATRONICS, All Rights Reserved</h5>
+          Copyright &copy; 2022, HAMZATRONICS, All Rights Reserved
         </p>
       </div>
     </footer>
 
-  </header>
+  </div>
 
 </body>
 

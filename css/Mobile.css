@@ -1,0 +1,63 @@
+/* nav bar */
+#navBar {
+  flex-direction: column;
+  background: rgba(196,111,79);
+  padding: 0;
+  padding-bottom: 0.3rem;
+  position: unset;/* to return it to Default*/
+  padding-top: 1rem;
+  width: unset;
+}
+
+#overlayRight h2,
+#overlayLeft h2,
+#overlayHead h1 {
+  font-size: 1.4rem;
+}
+
+#navLink {
+  margin-top: 0.9rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navLinks-a {
+  padding: 0.6em 0;
+  display: block;
+  text-align: center;
+}
+
+.navLinks {
+  padding: 0;
+  margin: 0 0; 
+  width: 100%;
+}
+
+#overlayHead {
+  width: 95%;
+  margin-top: 1rem;
+}
+
+#overlayBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.7rem;
+}
+
+#overlayRight,
+#overlayLeft {
+  width: 95%;
+  margin: 0.3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer-content {
+  background: rgba(196,111,79);
+}
